@@ -48,12 +48,13 @@ ul {
     justify-self: center;
 }
 .nav-links a {
+    transition: color 0.3s ease;
     font-size: 16px;
     font-weight: 400;
     color: #ffffff;
 }
 .nav-links a:hover {
-    color:#b3b3b3;
+    color:#b026ff;
 }
 .btn-subscribe {
     background: var(--gradient-btn);
@@ -146,7 +147,7 @@ ul {
     font-size: 16px;
     color: #b3b3b3;
     line-height: 19px;
-    padding-bottom: 24px;
+    padding-bottom: 18px;
 }
 .hero-buttons {
     display: flex;
@@ -207,6 +208,8 @@ ul {
     font-size: 1rem;
     color: #b3b3b3;
     line-height: 28px;
+    max-width: 50rem;
+    margin: 0 auto;
 }
 .join-text {
     margin-top: 1rem;
@@ -449,4 +452,57 @@ ul {
     border-color: #b026ff;
     transform: translateY(-2px);
     background-color: rgba(255, 255, 255, 0.05);
+}
+.footer-section {
+    width: 100%;
+    background-image: url('./images/footer-bg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.footer-logo {
+    font-size: 5.3rem;
+    font-weight: 1000;
+    padding-bottom: 32px;
+}
+.footer-social-row {
+    display: flex;
+    align-items: center;
+    gap: 2.5rem;
+    padding: 2.5px 0;
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 34px;
+    margin-top:32px;
+}
+.footer-link {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 1rem; 
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+.footer-link span{
+    opacity: 0.6;
+}
+.footer-link i {
+    font-size: 1.5rem;
+}
+.footer-link:hover, .footer-link:hover i {
+    color: #b026ff;
+}
+.copyright {
+    opacity: .6;
+    font-size: 1rem;
 }
