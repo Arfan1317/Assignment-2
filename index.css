@@ -5,12 +5,10 @@
     --gradient-logo: linear-gradient(90deg, #ff3366, #b026ff);
     --gradient-btn:  var(--Linear, linear-gradient(47.64deg, rgba(247, 233, 63, 1),rgba(251, 9, 180, 1),rgba(145, 0, 248, 1)));
 }
-/* Shared Style */
 .font-inter {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
 }
-/* individual style */
 body {
     background-color: #1A0B2E;
     color: #ffffff;
@@ -254,4 +252,67 @@ ul {
 .star {
     font-size: 2rem;
     color: #00ff88;
+}
+.why-choose-section {
+    width: 100%;
+    background-color: rgba(35, 14, 61, 1);
+    padding:7.5rem 12.5rem 7.5rem 12.5rem ;
+}
+.why-choose-section .section-title {
+    text-align: center;
+    margin-bottom: 2.5rem;
+}
+.features-grid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(6,auto);
+    gap: 1.875rem;
+}
+.feature-card {
+    background-color:  rgba(53, 17, 101, 0.4);
+    border-radius: 2.5rem;
+    padding: 2.5rem 2.5rem 2.5rem 2.5rem ;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 1rem;
+    transition: transform 0.3s ease;
+}
+.feature-card:hover {
+    transform: translateY(-5px);
+}
+.card-tall {
+    grid-column: span 2;
+    grid-row: span 4;
+}
+.card-two {
+    grid-column: span 4;
+    grid-row: span 2;
+}
+.card-three{
+    grid-column: span 4;
+    grid-row: span 2;
+}
+.card-four{
+    grid-column: span 2;
+    grid-row: span 2;
+}
+.icon-wrapper {
+    margin-bottom: 1rem;
+}
+.feature-icon {
+    width: 3.75rem;
+    height: auto;
+}
+.feature-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 29px;
+    margin-bottom: 1rem;
+}
+.feature-desc {
+    font-size: 1rem;
+    opacity: .6;
+    line-height: 1.5;
 }
