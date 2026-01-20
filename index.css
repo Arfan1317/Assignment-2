@@ -733,3 +733,202 @@ ul {
         text-align: center;
     }
 }
+@media screen and (min-width: 577px) and (max-width: 992px) {
+    .navbar {
+        padding: 20px 50px;
+        grid-template-columns: auto 1fr auto;
+    }
+    .logo {
+        font-size: 36px;
+    }
+    .nav-links {
+        display: flex;
+        gap: 24px;
+    }
+    .nav-links a {
+        font-size: 14px;
+    }
+    .btn-subscribe {
+        display: inline-flex;
+        padding: 10px 14px;
+        font-size: 14px;
+    }
+    .hamburger-icon {
+        display: none;
+    }
+    .hero-section {
+        padding: 50px 20px;
+        min-height: 600px;
+    }
+    .hero-image-wrapper {
+        width: 300px;
+        height: 300px;
+        padding-bottom: 30px;
+    }
+    .hero-mic {
+        width: 120px;
+    }
+    .new-badge {
+        top: 15px;
+        right: 15px;
+        font-size: 16px;
+        padding: 6px 12px;
+    }
+    .hero-title {
+        font-size: 50px;
+        line-height: 60px;
+    }
+    .hero-subtitle {
+        font-size: 16px;
+        line-height: 20px;
+        padding-bottom: 16px;
+    }
+    .hero-buttons {
+        gap: 12px;
+    }
+    .btn-spotify,
+    .btn-hero-subscribe {
+        padding: 12px 18px;
+        font-size: 15px;
+    }
+    .about-section {
+        padding: 50px 50px 100px 50px;
+    }
+    .section-title {
+        font-size: 40px;
+        line-height: 48px;
+        padding: 1rem 0;
+    }
+    .about-description {
+        font-size: 16px;
+        line-height: 24px;
+        max-width: 100%;
+    }
+    .separator-line {
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+    .stats-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 3rem;
+        align-items: center;
+    }
+    .stat-value {
+        font-size: 40px;
+        line-height: 48px;
+        justify-content: flex-start;
+    }
+    .stat-label {
+        font-size: 14px;
+        line-height: 17px;
+    }
+    .stat-item {
+        align-items: center;
+    }
+    .why-choose-section {
+        padding: 6rem 3rem;
+    }
+    .why-choose-section .section-title {
+        margin-bottom: 2rem;
+    }
+    .features-grid {
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+    .feature-card {
+        padding: 2rem;
+    }
+    .feature-title {
+        font-size: 1.4rem;
+        line-height: 1.6rem;
+    }
+    .feature-desc {
+        font-size: 1rem;
+        line-height: 1.4;
+    }
+    .feature-icon {
+        width: 3rem;
+    }
+    .episodes-section {
+        padding: 6rem 3rem;
+    }
+    .episodes-section .section-title {
+        font-size: 40px;
+        line-height: 48px;
+        margin-bottom: 2rem;
+    }
+    .episodes-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1.5rem;
+    }
+    .episode-card {
+        border-radius: 1.2rem;
+    }
+    .card-content {
+        padding: 1.2rem;
+    }
+    .episode-title {
+        font-size: 1.2rem;
+        line-height: 1.5rem;
+    }
+    .episode-desc {
+        font-size: 0.9rem;
+        line-height: 1.3rem;
+    }
+    .episode-meta {
+        font-size: 0.9rem;
+    }
+    .host-section {
+        padding: 0 3rem 6rem 3rem;
+    }
+    .host-section .section-title {
+        margin-bottom: 2rem;
+    }
+    .host-card {
+        padding: 2.5rem 2rem;
+        border-radius: 2rem;
+    }
+    .host-grid {
+        grid-template-columns: auto 1fr;
+        gap: 1.5rem;
+    }
+    .host-image-wrapper {
+        width: 180px;
+        height: 180px;
+    }
+    .host-name {
+        font-size: 1.8rem;
+        line-height: 2.2rem;
+    }
+    .host-bio {
+        font-size: 0.9rem;
+        line-height: 1.3rem;
+    }
+    .social-links {
+        gap: 0.4rem;
+    }
+    .footer-section {
+        padding: 80px 30px;
+    }
+    .footer-logo {
+        font-size: 4rem;
+        padding-bottom: 24px;
+    }
+    .footer-social-row {
+        gap: 1.5rem;
+        margin-top: 24px;
+        margin-bottom: 24px;
+        flex-wrap: wrap;
+    }
+    .footer-link {
+        font-size: 0.9rem;
+        gap: 8px;
+    }
+    .footer-link i {
+        font-size: 1.2rem;
+    }
+    .copyright {
+        font-size: 0.9rem;
+    }
+}
